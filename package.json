@@ -1,0 +1,25 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "Setting up a Cypress framwork for studying purposes",
+  "main": "index.js",
+  "scripts": {
+    "cy": "npx cypress run",
+    "cy:chrome": "npx cypress run --browser chrome --headed",
+    "cy:edge": "npx cypress run --browser edge --headed",
+    "cy:firefox": "npx cypress run --browser firefox --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielhamaya/Cypress-Framework.git"
+  },
+  "author": "Gabriel Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielhamaya/Cypress-Framework/issues"
+  },
+  "homepage": "https://github.com/gabrielhamaya/Cypress-Framework#readme",
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  }
+}
