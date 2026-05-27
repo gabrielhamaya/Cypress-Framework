@@ -1,0 +1,19 @@
+{
+  "name": "cypress-showcase",
+  "version": "1.0.0",
+  "description": "This is a meant to showcase the cypress tool",
+  "keywords": [
+    "cypress"
+  ],
+  "license": "ISC",
+  "author": "gabrielhamaya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.15.0",
+    "typescript": "^6.0.3"
+  }
+}
