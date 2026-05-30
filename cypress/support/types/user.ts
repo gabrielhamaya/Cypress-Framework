@@ -5,5 +5,10 @@ export interface User {
 
 export enum UserType {
   validUser = "valid-user",
-  invalidUser = "invalid-user",
+  unregisteredUser = "unregistered-user",
 }
+
+export type LoginOptions = {
+  skipUsername?: boolean;
+  skipPassword?: boolean;
+};
